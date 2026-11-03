@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Mi portfolio</title>
+</head>
+<body>
+
+    <a href="#contenido">Saltar al contenido</a>
+
+    <header>
+        <h1>Contacto</h1>
+
+        <nav aria-label="Menú principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre-mi.html">Sobre mí</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="cv.html">Currículum</a></li>
+                <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido">
+
+        <section>
+            <h2>Formulario de contacto</h2>
+
+            <p>
+                Si quieres contactar conmigo, puedes rellenar
+                el siguiente formulario.
+            </p>
+
+            <form action="mailto:TU_CORREO" method="post">
+
+                <fieldset>
+                    <legend>Datos personales</legend>
+
+                    <p>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensaje</legend>
+
+                    <p>
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" required>
+                    </p>
+
+                    <p>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Enviar</button>
+                </p>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Otros medios de contacto</h2>
+
+            <p>
+                Correo electrónico:
+                <a href="mailto:TU_CORREO">Envíame un correo</a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/TU_USUARIO"
+                   target="_blank"
+                   rel="noopener noreferrer">Mi perfil de GitHub</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Autor: Izan | Año: 2026</p>
+        <p>
+            <a href="https://github.com/TU_USUARIO"
+               target="_blank"
+               rel="noopener noreferrer">Mi GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>
